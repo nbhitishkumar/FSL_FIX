@@ -2,4 +2,4 @@
 
 A simple GUI for Denoising of ICA components (MRI)
 
-https://github.com/nbhitishkumar/Images/blob/master/IMG-20190725-WA0004.jpg
+![alt text](https://photos.google.com/photo/AF1QipNVMGmQzT0PCf6jaW-_ZpaVdxXdC3LP3V_W3S1a)
