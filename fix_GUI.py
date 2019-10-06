@@ -68,10 +68,10 @@ def melodic_denoisingfunc():
     mel_path=str(folder_path.get())+"/denoised_data.ica"
     os.chdir(mel_path)
     print(os.getcwd()+"\n")
-    mylines =[]                             # Declare an empty list named mylines.
-    with open ('.fix', 'rt') as myfile: # Open lorem.txt for reading text data.
-         for myline in myfile:                # For each line, stored as myline,
-            mylines.append(myline.rstrip('\n'))           # add its contents to mylines.
+    mylines =[]                             
+    with open ('.fix', 'rt') as myfile: 
+         for myline in myfile:                
+            mylines.append(myline.rstrip('\n'))          
     mynewlist=",".join(map(str,mylines))
     mylist=[str(mynewlist).replace(' ',',') for myline in mylines]
     lis=" ".join(mylist)
